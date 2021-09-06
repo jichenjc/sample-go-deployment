@@ -14,7 +14,7 @@ spec:
         app: demo-go
     spec:
       containers:
-      - image: localhost:5000/demo-4dacdcd276e2ec60b8209822b65bb1dd91fc1e69
+      - image: 192.168.39.169:5000/demo-123456
         name: demo-go
         ports:
         - containerPort: 8888
